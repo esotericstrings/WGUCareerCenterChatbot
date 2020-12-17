@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+        Hi there! How can the WGU Career Center help you today?
+        <button>
+            <text>Take a career quiz</text>
+            <postback></postback>
+        </button>
+        <button>
+            <text>Explore all career options</text>
+            <postback></postback>
+        </button>
+        <button>
+            <text>Create a career plan</text>
+            <postback></postback>
+        </button>
+        <button>
+            <text>Request a resume review</text>
+            <postback></postback>
+        </button>
+        <button>
+            <text>Schedule an appointment with an advisor</text>
+            <postback></postback>
+        </button>
+    </template>
+  </category>
+
+<category>
+    <pattern>Explore all career options</pattern>
+    <template>
+        <button>
+            <text>Software engineer</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Web developer</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Database administrator</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Data scientist</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Hardware engineer</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Network engineer</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Technical project manager</text>
+            <postback></postback>
+        </button>
+        <button>
+            <text>Quality assurance engineer</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Software engineer</pattern>
+    <template>
+        <b>SOFTWARE ENGINEER</b>
+        <br/>
+        Software developers are the creative minds behind computer programs. Some develop the applications that allow people to do specific tasks on a computer or another device. Others develop the underlying systems that run the devices or that control networks.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/software-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/software-developers</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Web developer</pattern>
+    <template>
+        <b>WEB DEVELOPER</b>
+        <br/>
+        Web developers design and create websites. They are responsible for the look of the site. They are also responsible for the site’s technical aspects, such as its performance and capacity, which are measures of a website’s speed and how much traffic the site can handle. In addition, web developers may create content for the site.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/web-developer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/web-developers</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Database administrator</pattern>
+    <template>
+        <b>DATABASE ADMINISTRATOR</b>
+        <br/>
+        Database administrators use specialized software to store and organize data, such as financial information and customer shipping records. They make sure that data are available to users and secure from unauthorized access.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/database-administrator</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/database-administrators</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Data scientist</pattern>
+    <template>
+        <b>DATA SCIENTIST</b>
+        <br/>
+        Data scientists are information technology professionals who are responsible for interpreting large amounts of raw data. They are an invaluable part of organizations and are often found in commerce, government and technical and scientific services. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/data-scientist</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Hardware engineer</pattern>
+    <template>
+        <b>HARDWARE ENGINEER</b>
+        <br/>
+        Data scientists are information technology professionals who are responsible for interpreting large amounts of raw data. They are an invaluable part of organizations and are often found in commerce, government and technical and scientific services. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/hardware-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/computer-hardware-engineers</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Network engineer</pattern>
+    <template>
+        <b>NETWORK ENGINEER</b>
+        <br/>
+        A network engineer, who is also called a network and computer systems administrator, implements and maintains the computer network of an organization. 
+        These professionals usually work in offices and monitor networks, assess network issues and develop solutions. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/network-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/computer-network-architects</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Technical project manager</pattern>
+    <template>
+        <b>TECHNICAL PROJECT MANAGER</b>
+        <br/>
+        A network engineer, who is also called a network and computer systems administrator, implements and maintains the computer network of an organization. 
+        These professionals usually work in offices and monitor networks, assess network issues and develop solutions. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/technical-project-manager</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Quality Assurance Engineer</pattern>
+    <template>
+        <b>QUALITY ASSURANCE ENGINEER</b>
+        <br/>
+        A quality assurance engineer, or QA engineer, tests all parts of a product at each phase of its development to make sure it complies with the company's quality standards and government regulations. 
+        They create tests, document results and create viable solutions for possible issues. 
+        QA engineers work alongside other engineers, project managers, developers and quality control professionals to release a successful product or service.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/quality-assurance-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/computer-systems-analysts</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Create a career plan</pattern>
+    <template>
+        Determine your career goals and create a career plan to help you stay on track! Utilize the tools and resources to learn more about yourself and the job market, determine your career goals, and create a strategic career plan to help you achieve job satisfaction and career success.
+        <br/><br/>
+        <link>
+            <text>Explore career planning resources</text>
+            <url>https://www.wgu.edu/career-services/resource-library/plan-your-career.html</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Request a resume review</pattern>
+    <template>
+        Your resume is a living document that you will update and share with employers and connections throughout your career. We want to ensure your competency in writing a strong resume that makes a positive professional impression. 
+        <br/><br/>
+        <link>
+            <text>Explore resume review resources</text>
+            <url>https://www.wgu.edu/career-services/resource-library/get-the-job/resumes.html</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Schedule an appointment with an advisor</pattern>
+    <template>
+        An advisor would be happy to meet with you to discuss other concerns. Please click on the Schedule an Appointment link below to schedule with a trained career professional. 
+        <br/><br/>
+        <link>
+            <text>Schedule an Appointment</text>
+            <url>https://bit.ly/37qYi4B</url>
+        </link>
+    </template>
+</category>
+
+<category>
+    <pattern>Take a career quiz</pattern>
+    <template>
+        Need some help figuring out what to do with your life? That's alright! I need that too. Unfortunately, we're only here for career guidance help. <br/><br/>
+        Let's keep it simple.
+        What do you prefer to work with?
+        <button>
+            <text>Working with code 💻</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Working with data 📊</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Working with hardware 🧰</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>Working with people 🧑‍🤝‍🧑</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Working with code 💻</pattern>
+    <template>
+        Awww, yeah! Logic wins again! How do you feel about design?
+        <button>
+            <text>graphic design is my passion 🐸</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>graphic design is NOT my passion 🙅</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>
+
+<category><pattern>Working with code</pattern><template><srai>WORKING WITH CODE 💻</srai></template></category>
+
+
+<category>
+    <pattern>graphic design is my passion 🐸</pattern>
+    <template>
+        <b>WEB DEVELOPER</b>
+        It sounds like web development might be a good path for you!
+        <br/><br/>
+        Web developers design and create websites. They are responsible for the look of the site. They are also responsible for the site’s technical aspects, such as its performance and capacity, which are measures of a website’s speed and how much traffic the site can handle. In addition, web developers may create content for the site.
+        <br/><br/>
+        On larger teams, you may have the freedom to specialize in front-end web development skills and become a master of page styling. On smaller teams, you might be left no choice but to pick up and work with some degree of front end styling knowledge. An eye for design details will serve you well in this field.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/web-developer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/web-developers</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>graphic design is my passion</pattern><template><srai>GRAPHIC DESIGN IS MY PASSION 🐸</srai></template></category>
+
+
+<category>
+    <pattern>graphic design is NOT my passion 🙅</pattern>
+    <template>
+        <b>SOFTWARE ENGINEER</b>
+        It sounds like software engineering might be a good fit for you!
+        <br/><br/>
+        I can't guarantee you'll be free from design in this role, as titles and responsibilities have begun to blur.<br/>
+        This should be the title that gives you a better chance of finding jobs that a bit less focused on frontend skills.
+        <br/><br/>
+        Software developers are the creative minds behind computer programs. Some develop the applications that allow people to do specific tasks on a computer or another device. Others develop the underlying systems that run the devices or that control networks.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/software-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/software-developers</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>graphic design is NOT my passion</pattern><template><srai>GRAPHIC DESIGN IS NOT MY PASSION 🙅</srai></template></category>
+
+
+<category>
+    <pattern>Working with data 📊</pattern>
+    <template>
+        A wise person knows to look at the numbers. How do you feel about Statistics?
+        <button>
+            <text>keep that math away from me 🙅</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>it has a positive correlation with my interest 📈</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>
+
+<category><pattern>Working with data</pattern><template><srai>WORKING WITH DATA 📊</srai></template></category>
+
+
+<category>
+    <pattern>keep that math away from me 🙅</pattern>
+    <template>
+        <b>DATABASE ADMINISTRATOR</b>
+        Database administrator might be a good choice for you!
+        <br/><br/>
+        Database administrators use specialized software to store and organize data, such as financial information and customer shipping records. They make sure that data are available to users and secure from unauthorized access.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/database-administrator</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/database-administrators</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>keep that math away from me</pattern><template><srai>KEEP THAT MATH AWAY FROM ME 🙅</srai></template></category>
+
+
+<category>
+    <pattern>it has a positive correlation with my interest 📈</pattern>
+    <template>
+        <b>DATA SCIENTIST</b>
+        Data science might be a good field to look into!
+        <br/><br/>
+        Data scientists are information technology professionals who are responsible for interpreting large amounts of raw data. They are an invaluable part of organizations and are often found in commerce, government and technical and scientific services. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/data-scientist</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>it has a positive correlation with my interest</pattern><template><srai>IT HAS A POSITIVE CORRELATION WITH MY INTEREST 📈</srai></template></category>
+
+
+<category>
+    <pattern>Working with hardware 🧰</pattern>
+    <template>
+        Nothing like being able to tinker with your hands in the real world. What materials speak to you more?
+        <button>
+            <text>wires, servers, and intranet building ☎️</text>
+            <postback></postback>
+        </button>
+        
+        <button>
+            <text>circuits, raspberry pi, arduino, and building smart devices 🕹️</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>
+
+<category><pattern>Working with hardware</pattern><template><srai>WORKING WITH HARDWARE 🧰</srai></template></category>
+
+
+<category>
+    <pattern>circuits, raspberry pi, arduino, and building smart devices 🕹️</pattern>
+    <template>
+        <b>HARDWARE ENGINEER</b>
+        <br/>
+        Data scientists are information technology professionals who are responsible for interpreting large amounts of raw data. They are an invaluable part of organizations and are often found in commerce, government and technical and scientific services. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/hardware-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/computer-hardware-engineers</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>circuits, raspberry pi, arduino, and building smart devices</pattern><template><srai>CIRCUITS, RASPBERRY PI, ARDUINO, AND BUILDING SMART DEVICES 🕹️</srai></template></category>
+
+
+<category>
+    <pattern>wires, servers, and intranet building ☎️</pattern>
+    <template>
+        <b>NETWORK ENGINEER</b>
+        <br/>
+        A network engineer, who is also called a network and computer systems administrator, implements and maintains the computer network of an organization. 
+        These professionals usually work in offices and monitor networks, assess network issues and develop solutions. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/network-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on the Bureau of Labor Statistics</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/computer-network-architects</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>wires, servers, and intranet building</pattern><template><srai>WIRES, SERVERS, AND INTRANET BUILDING ☎️</srai></template></category>
+
+
+<category>
+    <pattern>Working with people 🧑‍🤝‍🧑</pattern>
+    <template>
+        No man is an island! Many jobs involve working with a team and lots of communication. What type of communication appeals to you more?
+        <button>
+            <text>being the big brain leader 🧠</text>
+            <postback></postback>
+        </button>
+        <button>
+            <text>being the sharp eyed bug catcher 👀</text>
+            <postback></postback>
+        </button>
+    </template>
+</category>
+
+<category><pattern>Working with people</pattern><template><srai>WORKING WITH PEOPLE 🧑‍🤝‍🧑</srai></template></category>
+
+<category>
+    <pattern>being the big brain leader 🧠</pattern>
+    <template>
+        <b>TECHNICAL PROJECT MANAGER</b>
+        <br/>
+        A network engineer, who is also called a network and computer systems administrator, implements and maintains the computer network of an organization. 
+        These professionals usually work in offices and monitor networks, assess network issues and develop solutions. 
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/technical-project-manager</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>being the big brain leader</pattern><template><srai>BEING THE BIG BRAIN LEADER 🧠</srai></template></category>
+
+
+<category>
+    <pattern>being the sharp eyed bug catcher 👀</pattern>
+    <template>
+        <b>QUALITY ASSURANCE ENGINEER</b>
+        <br/>
+        A quality assurance engineer, or QA engineer, tests all parts of a product at each phase of its development to make sure it complies with the company's quality standards and government regulations. 
+        They create tests, document results and create viable solutions for possible issues. 
+        QA engineers work alongside other engineers, project managers, developers and quality control professionals to release a successful product or service.
+        <br/><br/>
+        <link>
+            <text>Learn more on Indeed</text>
+            <url>https://www.indeed.com/career/quality-assurance-engineer</url>
+        </link>
+        <link>
+            <text>Learn more on CollegeGrad</text>
+            <url>https://collegegrad.com/careers/computer-systems-analysts</url>
+        </link>
+    </template>
+</category>
+
+<category><pattern>being the sharp eyed bug catcher</pattern><template><srai>BEING THE SHARP EYED BUG CATCHER 👀</srai></template></category>
+
+
+<category><pattern>Hi</pattern><template><srai>HELLO</srai></template></category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+</aiml>
